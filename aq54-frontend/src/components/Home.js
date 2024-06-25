@@ -4,6 +4,9 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from '../firebase';
 import {  signOut } from "firebase/auth";
 import { useHistory } from 'react-router-dom';
+import NavBar from './homecomponents/Navbar';
+import '../../src/static/home/Home.css';
+import SensorDisplay from './homecomponents/SensorDisplay';
 
 const HomePage = () => {
   const history = useHistory();
@@ -36,9 +39,12 @@ const handleLogout = () => {
 }
 
   return (
-    <div>
-      <h2>Home Page</h2>
-      <p>Welcome to the home page!</p>
+    <div className='home'>
+      <NavBar/>
+      <div className='contain-sensor'>
+        <SensorDisplay/>
+      </div>
+      
       <button onClick={handleLogout}>
                         Logout
                     </button>

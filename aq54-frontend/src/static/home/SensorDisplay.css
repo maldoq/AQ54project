@@ -1,0 +1,151 @@
+.containsense{
+    width: 75rem;
+    height: 545px;
+    box-shadow: 1px 1px 3px #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.containsense .titlesense{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.containsense .titlesense h2{
+    display: inline-flex;
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #2370E3;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.containsense .bodysense{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.containsense .bodysense .pollute-address{
+    flex: 3;
+    height: 425px;
+    background-color: #FBFCFC;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containsense .bodysense .pollute-address p.address{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D6D7E;
+}
+
+.containsense .bodysense .pollute-address .pollute{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.containsense .bodysense .pollute-address .pollute .pollute-thing{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F2F3F4;
+}
+
+.containsense .bodysense .pollute-address .pollute .pollute-thing .icon{
+    width: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.containsense .bodysense .pollute-address .pollute .pollute-thing .icon h2{
+    font-size: 20px;
+}
+
+.containsense .bodysense .pollute-address .pollute .pollute-thing h1{
+    font-size: 24px;
+    color: #5D6D7E;
+}
+
+.containsense .bodysense .temp-hum{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containsense .bodysense .temp-hum .temp{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #2370E3;
+    color: #FFF;
+    gap: 20px;
+}
+
+.containsense .bodysense .temp-hum .temp .icon{
+    width: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.containsense .bodysense .temp-hum .temp .icon h2{
+    font-size: 20px;
+}
+
+.containsense .bodysense .temp-hum .hum{
+    width: 350px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F2F3F4;
+}
+
+.containsense .bodysense .temp-hum .hum .icon{
+    width: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.containsense .bodysense .temp-hum .hum .icon h2{
+    font-size: 20px;
+}
+
+.containsense .bodysense .temp-hum .hum h1{
+    color: #5D6D7E;
+}

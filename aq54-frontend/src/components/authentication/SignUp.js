@@ -33,6 +33,7 @@ const SignupPage = () => {
   }
 
   return (
+    <div className='body'>
     <div className='contain'>
       <h2>Sign Up</h2>
       <form>
@@ -65,6 +66,7 @@ const SignupPage = () => {
                         </NavLink>
       </p>
       </form>
+    </div>
     </div>
   );
 };

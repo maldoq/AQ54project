@@ -27,6 +27,7 @@ const LoginPage = () => {
 }
 
   return (
+    <div className='body'>
     <div className='contain'>
       <h2>Login</h2>
       <form>
@@ -54,6 +55,7 @@ const LoginPage = () => {
                             </NavLink>
       </p>
       </form>
+    </div>
     </div>
   );
 };

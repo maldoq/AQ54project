@@ -7,6 +7,10 @@ export class StationRawDataEntity {
   id: number;
 
   @Column({ nullable: true })
+  sensorId: string; // Nouvelle colonne pour l'ID du capteur
+
+
+  @Column({ nullable: true })
   AUX1_INPUT: string;
 
   @Column({ nullable: true })
