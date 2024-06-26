@@ -12,7 +12,9 @@ const NavBar = () =>{
             <li className="active">Home</li>
             <li>Air Map</li>
         </ul>
-        <p className="account">dominiquemalik20@gmail.com</p>
+        <p className="account">
+            dominiquemalik20@gmail.com
+            </p>
     </nav>
 };
 

@@ -74,4 +74,11 @@ export class AppService implements OnModuleInit{
     const response = await firstValueFrom(this.httpService.get('https://airqino-api.magentalab.it/getSessionInfo/AQ54'));
     return response.data;
   }
+
+  async getLatestDataForSensor(sensorId: string): Promise<StationRawDataEntity> {
+    return await this.stationRawDataRepository.findOne({
+      where: { sensorId },
+      order: { utc_timestamp: 'DESC' },
+    });
+  }
 }

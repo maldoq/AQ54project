@@ -19,4 +19,14 @@ export class AppController {
   async getSession() {
     return this.appService.getSessionInfo();
   }
+  
+  @Get('latest-data1')
+  async getLatestData1() {
+    return this.appService.getLatestDataForSensor('SMART188');
+  }
+
+  @Get('latest-data2')
+  async getLatestData2() {
+    return this.appService.getLatestDataForSensor('SMART189');
+  }
 }

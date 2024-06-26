@@ -80,11 +80,18 @@
     height: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .containsense .bodysense .pollute-address .pollute .pollute-thing .icon h2{
     font-size: 20px;
+}
+
+.containsense .bodysense .pollute-address .pollute .pollute-thing .icon img{
+    width: 16px;
+    height: 16px;
 }
 
 .containsense .bodysense .pollute-address .pollute .pollute-thing h1{
@@ -117,10 +124,17 @@
     height: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 .containsense .bodysense .temp-hum .temp .icon h2{
     font-size: 20px;
+}
+
+.containsense .bodysense .temp-hum .temp .icon img{
+    width: 32px;
+    height: 32px;
 }
 
 .containsense .bodysense .temp-hum .hum{
@@ -140,10 +154,16 @@
     height: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 .containsense .bodysense .temp-hum .hum .icon h2{
     font-size: 20px;
+}
+.containsense .bodysense .temp-hum .hum .icon img{
+    width: 32px;
+    height: 32px;
 }
 
 .containsense .bodysense .temp-hum .hum h1{
