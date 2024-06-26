@@ -1,6 +1,6 @@
 import "../../static/home/Navbar.css"
 
-const NavBar = () =>{
+const NavBar = ({ userEmail }) =>{
 
     return <nav>
         <p className="logo">
@@ -13,7 +13,7 @@ const NavBar = () =>{
             <li>Air Map</li>
         </ul>
         <p className="account">
-            dominiquemalik20@gmail.com
+            {userEmail || "Not logged in"}
             </p>
     </nav>
 };

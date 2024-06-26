@@ -12,7 +12,7 @@ import { AppController } from './app.controller';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'db',
       port: 5432,
       username: 'user',
       password: 'user',
